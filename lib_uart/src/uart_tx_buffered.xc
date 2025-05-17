@@ -117,7 +117,7 @@ void uart_tx_buffered(server interface uart_tx_buffered_if i,
         }
 
         // Trace the outgoing data
-        xscope_char(UART_TX_VALUE, byte);
+        //xscope_char(UART_TX_VALUE, byte);
 
         bit_count = 0;
 

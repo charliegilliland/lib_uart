@@ -43,7 +43,7 @@ void uart_tx(server interface uart_tx_if i,
     select {
     case i.write(uint8_t data):
       // Trace the outgoing data
-      xscope_char(UART_TX_VALUE, data);
+      //xscope_char(UART_TX_VALUE, data);
       int t;
       // Output start bit
       p_txd.output(0);
